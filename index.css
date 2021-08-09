@@ -1,0 +1,93 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ef5839;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover,
+a:focus {
+    color: #912813;
+}
+
+/* Layout */
+
+header {
+    background: #2e354f;
+    padding: 45px 0;
+}
+
+.container {
+    /* background: red; */
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 10px 20px; 
+}
+
+section {
+    padding: 150px;
+}
+
+.section-one {
+    background: #fff;
+    color: #2e354f;
+}
+
+.section-two {
+    background: #2e354f;
+    color: #fff;
+}
+
+/* Buttons */
+
+.btn {
+    /* background: red; */
+    padding: 10px 30px;
+    font-weight: 900;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn-accent {
+    background: #ef5839;
+    color: #fff;
+}
+
+.btn-accent:hover,
+.btn-accent:focus{
+    background: #912813;
+    color: rgb(202, 202, 202);
+}
+
+.btn-light {
+    background: #fff;
+    color: #2e354f;
+}
+
+.btn-light:hover,
+.btn-light:focus {
+    background: grey;
+    color: #2e354f;
+}
+
+
+
+
